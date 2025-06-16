@@ -18,4 +18,5 @@ void main(void) {
     }
   printf("phan tu lon nhat la : %d", Item);
   }
-  // do phuc tap la O(n^2)
+  // do phuc tap thoi gian la O(n^2)
+// do phuc tap khong gian la O(1)
