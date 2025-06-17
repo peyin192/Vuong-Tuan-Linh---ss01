@@ -5,7 +5,7 @@ int main() {
     int count = 0;
     // cach 1 do phuc tap ve thoi gian la O(n2) va do phuc tap ve khong gian la O(n)
     for (int i = 0; i < n - 1; i++) {
-        for (int j = n + 1; j < n; j++) {
+        for (int j = i + 1; j < n; j++) {
             if (arr[i] == arr[j]) {
                 count = 1;
                 break;
